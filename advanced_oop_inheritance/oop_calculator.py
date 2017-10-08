@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 class Calculator(object):
 
     def __init__(self):
@@ -23,4 +25,4 @@ class Calculator(object):
         except ZeroDivisionError:
             print('Error, You cannot divide by Zero')
 
-    def 
+    def
