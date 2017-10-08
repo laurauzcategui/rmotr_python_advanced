@@ -22,3 +22,5 @@ class Calculator(object):
             return self.operation(a,b,'/')
         except ZeroDivisionError:
             print('Error, You cannot divide by Zero')
+
+    def 
