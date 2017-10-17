@@ -20,10 +20,10 @@ class Distance(object):
     @property
     def distance_in_miles(self):
         if self.meters is None:
-            return self.feet * 0.000189394
-        return self.meters * 0.000621371
+            return self.feet * 0.0001893939394
+        return round(self.meters * 0.000621371)
     @property
     def distance_in_feet(self):
         if self.feet is None:
-            return self.feet / 0.3048
+            return self.meters / 0.3048
         return self.feet
